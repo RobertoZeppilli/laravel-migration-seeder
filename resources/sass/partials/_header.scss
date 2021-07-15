@@ -1,0 +1,9 @@
+header {
+    height: 70px;
+    border-bottom: 1px solid $border;
+    .logo {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+}

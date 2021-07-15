@@ -1,0 +1,26 @@
+main {
+    height: calc(100vh - 120px);
+    .travels {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        .travel {
+            border-radius: 5px 10px 5px 10px;
+            background-color: $bgCard;
+            .destination,
+            .price,
+            .departure,
+            .return {
+                padding: 20px;
+                text-transform: capitalize;
+                color: $textCard;
+            }
+            .destination {
+                border-radius: 5px 10px 0 0;
+                background-color: $bgLocation;
+                color: $textLocation;
+            }
+        }
+    }
+}
